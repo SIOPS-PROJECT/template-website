@@ -1,0 +1,110 @@
+:root {
+	--principal-color: #e2d7c5;
+	--text-color: #000000;
+	--acentos: #800020;
+	--sencundario: #d1c4af;
+	--sencodary-text: #5a5a5a;
+}
+body {
+/*	background: var(--principal-color);*/
+	color: var(--text-color) !important;
+	font-family: 'Playfair';
+	letter-spacing: 2px;
+	font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.flint-navbar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-content: center;
+	padding: 0px 0;
+	background: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0 ,0.125);
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.125);
+	padding: 10px 10%;
+}
+.finally-nav {
+	font-weight: bold;
+	background: linear-gradient(45deg, var(--acentos), var(--text-color), var(--sencodary-text));
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 2rem;
+}
+
+.flint-navbar ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.flint-navbar ul li {
+	flex-direction: row;
+}
+.flint-navbar ul li a, .nav-item {
+	padding: 7px 15px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	color: var(--text-color);
+}
+.socials-buttons {
+	font-size: 1.125rem;
+}
+.socials-buttons a {
+	font-size: 1.5rem;
+	color: #000;
+}
+.final-container {
+	width: 100%;
+	display: block;
+	position: fixed;
+	bottom: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	border-top: 1px solid rgba(0, 0, 0, 0.125);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.125);
+	background: #fff;
+}
+.final-container a {
+	color: #434343;
+	padding: 5px;
+}
+.justify-space-between {
+	justify-content: space-between;
+	display: flex !important;
+	width: 100%;
+	flex-direction: row;
+}
+.pd-navbar {
+	padding: 20px 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.ml-auto {
+	margin-left: auto;
+}
+.super-jumbotron {
+	background: url('/img/background.jpg') no-repeat;
+}
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px 10%;
+	color: #fff;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+}
+
+.card-group-simple {
+	display: flex;
+	flex-direction: row;
+}
